@@ -1,0 +1,24 @@
+div
+{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    transition: all 5s ease 2s;
+    text-align: center;
+}
+div:hover
+{
+    background-color: antiquewhite;
+    color: rgba(192, 54, 150, 0.442);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*transform: rotate  skew(100deg);*/
+    /*transform: rotate(250deg);*/
+    /*transform: scale(4);*/
+    /*transform: rotateX(90deg);*/
+     /*transform: skewX(90deg);*/
+     transform: scaleX(2);
+     /*all x y and z axix avaliable*/
+}
